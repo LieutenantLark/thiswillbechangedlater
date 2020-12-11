@@ -1,9 +1,22 @@
+<!DOCTYPE html>
 <html>
 <head>
-<title>just a completely normal title</title>
-
+<style>
+#svgelem {
+   position: relative;
+   left: 10%;
+   -webkit-transform: translateX(-20%);
+   -ms-transform: translateX(-20%);
+   transform: translateX(-20%);
+}
+</style>
+<title>HTML5 SVG Ellipse</title>
 </head>
-  <body>
-<script src="main.js"></script>
-  </body>
+
+<body>
+<h2>HTML5 SVG Ellipse</h2>
+<svg id = "svgelem" width = "300" height = "200" xmlns = "http://www.w3.org/2000/svg">
+<ellipse cx = "120" cy = "50" rx = "100" ry = "50" fill = "blue" />
+</svg>
+</body>
 </html>
